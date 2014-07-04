@@ -1,0 +1,235 @@
+/* CSS By Nowar 2011.1.5 */
+
+/* css reset */
+body,p,form,input,button,ul,ol,li,h1,h2,h3,dl,dt,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+body{
+	font:12px Tahoma;
+	color:#000;
+	}
+input{
+	padding:2px;
+	font:12px Tahoma;
+	}
+button{
+	padding:0 6px;
+	border:none;
+	height:23px;
+	background:url(../images/index_sprite.gif) no-repeat right -64px;
+	font:12px Tahoma;
+	overflow:visible;
+	cursor:pointer;
+	}
+	
+/* top */
+.top_bar{
+	height:23px;
+	line-height:23px;
+	background:url(../images/top_bar_bg.gif) repeat-x;
+	}
+.header,.nav_in,.con,.foot{
+	margin:0 auto;
+	width:1000px;
+	}
+.top_bar .con ul{
+	float:left;
+	padding-top:3px;
+	overflow:hidden;
+	}
+.top_bar .con p{
+	color:#b4b4b4;
+	}
+	
+.top_bar .con ul li{
+	float:left;
+	margin-left:-1px;
+	padding:0 8px;
+	border-left:1px solid #767676;
+	color:#b4b4b4;
+	}
+.top_bar .con ul.op{
+	float:right;
+	}
+.top_bar .con ul.op li a{
+	text-decoration:none;
+	color:#b4b4b4;
+	}
+.top_bar .con ul.op li a:hover{
+	text-decoration:underline;
+	}
+	
+.con_login{
+	position:relative;
+	margin:40px auto 0;
+	width:1000px;
+	height:363px;
+	}
+	
+	
+/* header */
+.header{
+	padding:30px 0 20px;
+	overflow:hidden;
+	}
+.header h1{
+	float:left;
+	width:244px;
+	height:40px;
+	text-indent:-999em;
+	}
+
+span.btn{
+	padding-left:1px;
+	display:inline-block;
+	background:url(../images/index_sprite.gif) no-repeat -700px -64px;
+	}
+
+/* login form */
+.login_form{
+	float:right;
+	display:inline;
+	margin:15px 160px 0 0;
+	border:1px solid #c8c8c8;
+	width:330px;
+	background:#fff;
+	-webkit-box-shadow:4px 2px 6px #eee; 
+    -moz-box-shadow:0 0 6px #ccc;
+	}
+.login_form h2{
+	padding-left:15px;
+	font:bold 14px Tahoma;
+	height:34px;
+	line-height:34px;
+	background:#f7f7f7;
+	}
+.login_form_in{
+	position:relative;
+	padding:0 0 10px 20px;
+	overflow:hidden;
+	zoom:1;
+	}
+.login_form_in p{
+	margin:20px 0 0;
+	overflow:hidden;
+	zoom:1;
+	}
+.login_form_in p label{
+	float:left;
+	padding-top:4px;
+	width:60px;
+	text-align:right;
+	}
+.login_form_in p input{
+	float:left;
+	width:155px;
+	}
+.login_form_in p span.getpsw{
+	padding-left:5px;
+	color:#b4b4b4;
+	cursor:pointer;
+	}
+.login_form_in p input.code{
+	width:60px;
+	}
+.login_form_in p span.code{
+	float:left;
+	padding-left:5px;
+	overflow:hidden;
+	cursor:pointer;
+	}
+.login_tips{
+	position:absolute;
+	top:0;
+	left:80px;
+	padding:0 2px;
+	background:#fff1a8;
+	font-weight:bold;
+	}
+.login_form_in p.login{
+	padding-left:60px;
+	}
+.login_form_in p.login button{
+	font:bold 14px Tahoma;
+	letter-spacing:0.2em;
+	}
+.login_form_info{
+	margin:20px 15px 0;
+	padding-bottom:50px;
+	border-top:1px solid #ddd;
+	}
+.login_form_info p{
+	padding-top:10px;
+	color:#afafaf;
+	}
+/* mms intro */
+.con_login dl{
+	position:absolute;
+	left:160px;
+	bottom:40px;
+	}
+.con_login dl dt{
+	padding-bottom:5px;
+	font:bold 14px Tahoma;
+	}
+.con_login dl dd{
+	margin-top:5px;
+	padding-left:10px;
+	background:url(../images/dot.gif) no-repeat left center;
+	color:#858686;
+	}
+/* foot */
+.foot{
+	margin:100px auto 0;
+	}
+.foot p{
+    color:#A0A0A0;
+    padding-bottom:20px;
+    text-align:center;
+}
+/* thickbox */
+.login_popup_layer{ width:400px; height:300px;}
+.login_form_thick{
+	position:relative;
+	padding:20px 0 10px 35px;
+	overflow:hidden;
+	zoom:1;
+	}
+.login_form_thick p{
+	margin:20px 0 0;
+	overflow:hidden;
+	zoom:1;
+	}
+.login_form_thick p label{
+	float:left;
+	padding-top:4px;
+	width:60px;
+	text-align:right;
+	}
+.login_form_thick p input{
+	float:left;
+	width:165px;
+	}
+.login_form_thick p span.getpsw{
+	padding-left:5px;
+	color:#b4b4b4;
+	cursor:pointer;
+	}
+.login_form_thick p input.code{
+	width:60px;
+	}
+.login_form_thick p span.code{
+	float:left;
+	padding-left:5px;
+	overflow:hidden;
+	cursor:pointer;
+	}
+.login_form_thick p.login button{
+	font:bold 14px Tahoma;
+	letter-spacing:0.2em;
+	}
+.login_form_thick p.login{
+	padding-left:60px;
+	}

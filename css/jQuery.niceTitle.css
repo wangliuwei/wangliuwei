@@ -1,0 +1,110 @@
+#niceTitle p {
+	margin: 0;
+	padding: 3px;
+	color: #333;
+	font-family: '宋体',verdana,arial,sans-serif; 
+	font-size:12px ;
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+}
+#niceTitle p em { 
+    display: block;
+	margin-top: 3px;
+	color: #f60;
+	font-style: normal;
+	font-weight: bold; 
+}
+
+#niceTitle{
+	width:280px;
+	/*background:url(../../images/tip/bg.png) 0 top no-repeat;*/
+} 
+
+#niceTitle table{
+	margin-bottom:0 !important;
+} 
+#niceTitle table{
+	margin:0;
+	padding:0;	
+	width:100%;
+	max-width:280px;
+	max-height:430px;
+}
+#niceTitle table tr{
+	min-height:0;
+}
+
+#niceTitle td{
+	background:url(../images/tmpl/bg.png) no-repeat 0 0 transparent;
+}
+#niceTitle td.lt{
+	height:5px;
+	width:5px;
+}
+#niceTitle td.t{
+	background-position:-10px 0;
+	height:5px;
+}
+#niceTitle td.rt{
+	background-position:right 0;
+	width:5px;
+	height:5px;
+}
+
+#niceTitle td.lc{
+	width:5px;
+	background-position:0 -10px;	
+}
+#niceTitle td.c{
+	background-position:-10px -10px;
+}
+#niceTitle td.rc{
+	background-position:right -10px;	
+	width:5px;
+}
+#niceTitle td.lb{
+	width:5px;
+	height:5px;
+	background-position:0 bottom;	
+}
+#niceTitle td.b{
+	background-position:-10px bottom;
+	height:5px;
+}
+#niceTitle td.rb{
+	background-position:right bottom;	
+	width:5px;
+	height:5px;
+}
+#niceTitle div.tip_arrow{
+	position:relative;
+	height:12px;
+}
+
+#niceTitle div.tip_arrow div{
+	position:absolute;
+	width:12px;
+	height:12px;
+	font-size:1px;
+	overflow:hidden;
+	background:url(../images/tmpl/ar.gif)  0 0 no-repeat;
+}
+
+#niceTitle div.lb div{
+	background-position:-5px -1px;
+}
+#niceTitle div.lt div{
+	background-position:-110px 2px;
+}
+#niceTitle div.rb div{
+	background-position:-45px -1px;
+}
+#niceTitle div.rt div{
+	background-position:-80px 2px;
+}
